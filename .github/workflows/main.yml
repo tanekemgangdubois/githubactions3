@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       with:
-        ref: 'master'
+        ref: 'main'
     - name: My first step
 
