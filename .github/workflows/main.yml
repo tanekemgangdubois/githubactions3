@@ -1,6 +1,5 @@
 name: use my action
 on: push
-
 jobs:
   my_first_job:
     runs-on: ubuntu-latest
@@ -9,4 +8,5 @@ jobs:
       with:
         ref: 'main'
     - name: My first step
+    - run: echo "ovidi"
 
