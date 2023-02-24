@@ -1,6 +1,6 @@
 name: "Hello My Actions"
 description: "Greet someone"
-author: "xxxxx@github.com"
+author: "tanekemgangdubois@github.com"
 
 runs:
   using: "docker"
