@@ -7,6 +7,5 @@ jobs:
     - uses: actions/checkout@v1
       with:
         ref: 'main'
-    - name: My first step
     - run: echo "ovidi"
 
