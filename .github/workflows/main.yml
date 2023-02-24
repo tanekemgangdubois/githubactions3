@@ -4,7 +4,7 @@ jobs:
   my_first_job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ovidi"
-      - name: My first step
-      - uses: ./.github/actions/automatic-tests
-
+      - uses: actions/checkout@v2
+      - uses: octocat/say-hello@v1
+        with: 
+          name: OctoCat
