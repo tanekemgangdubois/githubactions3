@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: octocat/say-hello@v1
         with: 
-          name: OctoCat
+          name: OctoCatnj
